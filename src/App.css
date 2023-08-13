@@ -1,0 +1,146 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Lucida sans;
+	font-size: 1rem;
+	box-sizing: border-box;
+}
+.welcome-main{
+	margin-top: 15em;
+	width:100%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+
+}
+.welcome-text{
+	font-family: Lucida sans; 
+	width: 80%;
+	margin: 2% 15% 2% 20%;
+
+}
+h1{
+	font-size:3rem;
+}
+.welcome-buttons{
+	width: 50%;
+	max-width: 400px;
+	height: 3.5rem;
+	display: flex;
+	flex-wrap:wrap;
+	
+
+	
+}
+
+	
+
+.signin-submit{
+	background-color:blue;
+	width:20rem;
+	height: 3rem;
+	border: none;
+	border-radius: 10px;
+		margin: 2% 0 2% 0;
+		cursor:pointer;
+	
+	
+}
+fieldset{
+	margin: 2% 4% 2% 4%;
+	border-radius: 30px;
+	height: 30%;
+	padding: 10px;
+	width: 100%;
+}
+.input-heading{
+	color: blue;
+	
+}
+.input-field{
+	width:100%;
+	border:none;
+	height: 100%;
+	
+}
+.input-field:focus{
+	outline:none;
+}
+form{
+	padding: 2%;
+	display: flex;
+	flex-wrap : wrap;
+	align-items: center;
+	justify-content: center;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 5%;
+	
+}
+.star{
+	color:red;
+}
+.radio-buttons{
+	margin-left: 4%;
+	padding: 5%;
+	width: 100%;
+}
+.radio-buttons> input{
+	margin  :1%;
+}
+.radio-buttons>label{
+	margin:1%;
+}
+
+.signin-submit:hover{
+	background-color:blue;
+}
+.account-main{
+	background-color:#dfdfdf;
+	padding: 0 0 1rem 0;
+	
+	
+}
+.account-heading{
+	padding: 1.5rem;
+	width:100%;
+	background-color:white;
+}
+.user-details{
+	display:flex;
+	align-items:center;
+}
+
+.user-image{
+	position:relative;
+	margin-left: 50px;
+	margin-top: 20px;
+	
+}
+.user-image >img{
+	postion:absolute;
+	top:60px;
+	left:70px;
+	border-radius:50%;
+}
+.camera{
+	position: absolute;
+	
+}
+.user-name{
+margin-left: 7%;
+}
+.user-info{
+	margin:1rem 5% 0 5%;
+}
+.details-area{
+	box-sizing: content-box;
+	height: 19rem;
+	border-bottom:1px dashed black;
+	border-top: 1px dashed black;
+	margin: 1rem 0 1rem 0;
+	
+	
+}
